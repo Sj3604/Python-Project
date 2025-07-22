@@ -1,0 +1,40 @@
+# 💻 Desktop Notification App – Break Reminder 🕒
+
+This Python project sends timely desktop notifications reminding you to take short breaks, promoting better focus and productivity during long working hours.
+
+## 🚀 Features
+
+- Periodic desktop notifications every 50 seconds (customizable)
+- Encouraging messages to take quick rests
+- Cross-platform support using `plyer` library
+- Custom icon support for personalization
+
+## 🧠 Purpose
+
+Taking regular breaks while working on a computer can:
+- Reduce eye strain
+- Increase productivity
+- Improve focus
+- Promote physical well-being
+
+## 🛠️ Technologies Used
+
+- Python
+- [`plyer`](https://github.com/kivy/plyer) library for notifications
+- `time` module for delay handling
+
+## 🧾 Code Overview
+
+```python
+from plyer import notification
+import time
+
+if __name__ == "__main__":
+    while True:
+        notification.notify(
+            title="*** Have Some Rest! ***",
+            message="Taking short breaks refreshes you a lot!",
+            app_icon=r"C:\Users\Vishal Infotech\Downloads\hey.ico",  # Change this path as needed
+            timeout=5
+        )
+        time.sleep(50)  # Time in seconds before the next notification
