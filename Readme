@@ -1,0 +1,30 @@
+# WhatsApp Message Sender using PyWhatKit 📱
+
+This simple Python project uses the `pywhatkit` library to **automate sending WhatsApp messages** at a scheduled time via WhatsApp Web.
+
+---
+
+## 🚀 Features
+
+- Automatically opens WhatsApp Web in your default browser
+- Types and schedules messages to any phone number
+- Supports 24-hour time format
+- Useful for reminders, birthday wishes, or regular updates
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.x**
+- **pywhatkit** library
+- **Internet connection**
+- **WhatsApp Web login**
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository (optional)
+```bash
+git clone https://github.com/your-username/whatsapp-scheduler.git
+cd whatsapp-scheduler
